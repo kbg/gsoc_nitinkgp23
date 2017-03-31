@@ -125,7 +125,7 @@ The project can be divided into 3 main parts:
 
 2. ### Integrating SunPy to use drms
 
-   SunPy is currently rather restricted in when it comes to accessing HMI and AIA data from JSOC, and the drms module provides a more general interface to access the data series from JSOC servers. Drms module can be used as a backend for the present JSOC Client, to improve communication with JSOC servers.
+    SunPy is currently rather restricted in when it comes to accessing HMI and AIA data from JSOC, and the drms module provides a more general interface to access the data series from JSOC servers. Drms module can be used as a backend for the present JSOC Client, to improve communication with JSOC servers.
 
     The current JSOC Client has limited attributes for generating the query string, and can’t filter out the contents of data based on other keywords such as `QUALITY` and `DATAMEAN`. There is no option of downloading the metadata of the data-series exclusively.
 
@@ -148,7 +148,8 @@ The project can be divided into 3 main parts:
 
 
 3. ### Thorough documentation
-   #### Drms:
+
+    #### Drms:
     
     Documentation and code go hand in hand. Presently, the drms package has a brief but sufficient documentation showcasing the basic query and export requests. Apart from the main documentation, there are a lot of examples present in the main repo for querying other types of data, with some variations. These examples can be well explained on the tutorial page itself, after creating a new section.
 
